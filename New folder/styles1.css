@@ -1,0 +1,18 @@
+/* Masukkan CSS yang sama dengan contoh sebelumnya */
+
+main {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Tersusun ke samping */
+}
+
+.article {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    flex: 0 0 calc(50% - 40px); /* Ukuran setengah lebar */
+    max-width: calc(50% - 40px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}

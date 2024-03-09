@@ -1,0 +1,41 @@
+/* Masukkan CSS yang sama dengan contoh sebelumnya */
+
+article {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(170, 171, 201, 0.3);
+}
+
+article h1 {
+    margin-top: 0;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+article p {
+    color: #000000;
+    line-height: 1.6;
+}
+
+article .meta {
+    color: #000000;
+    font-style: italic;
+}
+
+article blockquote {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 5px solid #7c3d3d;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+article blockquote footer {
+    color: #6d5a5a;
+    font-style: italic;
+    margin-top: 10px;
+}
